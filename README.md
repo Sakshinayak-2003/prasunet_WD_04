@@ -20,3 +20,8 @@ SKILLS:
 
 PROJECTS:
 ![Screenshot (168)](https://github.com/user-attachments/assets/a3c6796a-60e6-4bdb-972e-d09f51704c24)
+
+
+CONTACTS:
+
+![Screenshot (169)](https://github.com/user-attachments/assets/dea99abf-da72-434d-94b6-01eacbf5ccb8)
