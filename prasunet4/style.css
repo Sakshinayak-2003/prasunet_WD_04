@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Kalam:wght@300;400;700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Marck+Script&family=Merienda:wght@300..900&family=Montez&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Sacramento&family=Sedan+SC&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{   
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+}
+.home-menu{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(134, 175, 175);
+}
+
+.home img{
+    width: 45px;
+    height: 40px;
+    margin-left: 170px;
+    margin-bottom:10px;
+}
+.name-part{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    margin-bottom:5px;
+
+}
+.name-work{
+    margin-left: 100px;
+    font-size: 15px;
+    color: rgb(83, 83, 83);
+}
+#arrow{
+    margin-left: 175px;
+    margin-top: 100px;
+
+}
+
+/*  Abour part start  */
+
+.about-menu,.experince-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height to center vertically */
+    margin: 0;
+    background-color: rgb(145, 173, 173);
+}
+.double-about,.experince {
+    width: 90%;
+    max-width: 1200px; 
+}
+
+.box-lines{
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.about-name{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 34px;
+}
+.left-line{
+    margin-left: 70px;
+    color: black;
+}
+.right-line{
+    margin-right: 50px
+}
+.left-line,.right-line{
+    width: 350px;
+    /*border-top: solid black 2px;*/
+}
+
+.about .about-data{
+    margin-left: 100px;
+    height: 400px;
+    display: flex;
+    background-color: rgba(175, 174, 174, 0.397);
+    width: 900px;
+}
+.about-info{
+    width: 600px;
+    padding: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 14px;
+}
+.about-info button{
+    padding: 7px;
+    width: 90px;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: rgb(175, 174, 174);
+    border-radius: 30px;
+    border: solid rgba(192, 192, 192, 0.685) 2px;
+
+}
+.about-menu .about .about-data .about-img img{
+    width:310px;
+    height: 400px;
+}
+
+/* experinces */
+
+.exps{
+    width: 850px;
+    margin-left: 150px;
+}
+.exp1,.exp2{
+   /* background-color: rebeccapurple;*/
+    height: 100px;
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.exp1-info{
+    padding: 10px;
+    margin-right: 40px;
+    width: 280px;
+    border-right: solid black 1px;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+}
+.exp1-info-top{
+    padding-left: 40px;
+    border-bottom: solid black 1px;
+}
+.exp1-work,.exp2-work{
+    font-size: 24px;
+    margin-bottom: 50px;
+    
+}
+.exp1-company,.exp2-company{
+    padding-top: 20px;
+    font-size: 13px;
+    font-weight: 400;
+}
+.exp1-info-bottom{
+    padding-left: 40px;
+}
+.exp1-date,.exp2-date{
+    font-size: 13px;
+}
+.exp1-data,.exp2-data{
+    font-size: 13px;
+}
+.exp1-data ul li,.exp2-data ul li{
+    padding: 5px;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+}
+
+
+
+.exp2-data{
+    width: 900px;
+
+}
+.exp2-info{
+    padding: 10px;
+    margin-right: 40px;
+    width: 280px;
+    border-left: solid black 1px;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+}
+.exp2-info-top{
+    padding-left: 20px;
+    border-bottom: solid black 1px;
+}
+.exp2-info-bottom{
+    padding-left: 20px;
+}
+
+
+.skill-menu,.accomp-menu{
+    height: 100vh;
+    background:rgb(124, 182, 184);
+}
+.skill-box{
+    justify-content: center;
+    float: left;
+    width: 500px;
+    margin-left: 200px;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+
+}
+.skill-name{
+    margin-bottom: 50px;
+}
+.skill-strip{
+    padding-right: 40px;
+    margin-left: 0px;
+    height: 8px;
+    overflow: hidden;
+    width: 150%;
+    background-color: rgb(175, 174, 174);
+}
+.skill-per{
+    width: 100%;
+    height: 8px;
+    padding-right: 700px;
+    background-color: rgb(83, 83, 83);
+}
+
+#per-html{
+    padding-right: 700px;   
+}
+#per-css{
+    padding-right: 650px;
+}
+#per-python{
+    padding-right: 500px;   
+}
+#per-js{
+    padding-right: 650px;
+}
+#per-java{
+    padding-right: 200px;   
+}
+/* /* #per-React{
+    padding-right: 650px;
+} */
+#per-React{
+    padding-right: 600px;
+}
+
+#no-html{
+    margin-left: 700px;   
+}
+#no-css{
+    margin-left: 600px;
+}
+#no-python{
+    margin-left: 600px;   
+} 
+#no-js{
+    margin-left: 450px;
+}
+#no-java{
+    margin-left: 600px;   
+}
+#no-React{
+    margin-left: 500px;
+}
+
+.accomp-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 140vh;
+}
+
+.accomp-list{
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+
+}
+
+
+.accomp-ul{
+    margin-left: 150px;
+
+}
+.accomp-name{
+    font-size: 22px;
+}
+.accomp-certified{
+    margin-left: 100px;
+}
+.accomp-ul .accomp-li{
+    width: 90%;
+    font-size: 15px;
+    padding: 10px;
+}
+#right-arrow{
+    font-size: 18px;
+}
+.accomp-point{
+    margin-left: 60px;
+    list-style: none;
+}
+.accomp-ul .accomp-li:hover{
+    transition: 2s;
+    background-color: rgb(175, 174, 174);
+}
+#link{
+    font-size: 18px;
+}
+.accomp-link a{
+    color: rgb(97, 97, 97);
+    text-decoration: none;
+    padding: 3px;
+    border-bottom: solid rgb(56, 56, 56) 1px;
+}
+
+.project-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 190vh;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    background-color: rgb(158, 202, 202);
+}
+.project-post1{
+    display: flex;
+    padding-top: 60px;
+}
+/* two rows on project */
+.project-img img{
+    width: 450px;
+    height: 220px;
+    margin-left: 150px;
+}
+#project-img img{
+    width: 450px;
+    height: 220px;
+    margin-left: 0px;
+    margin-right: 120px;
+}
+.project-info{
+    margin-left: 20px;
+}
+#project-info{
+    margin-left: 150px;
+    width: 100%;
+}
+/* to to  completed */
+
+.project-name{
+    font-size: 24px;
+}
+#project-name{
+    margin-left: 370px;
+}
+
+.project-top{
+    border-bottom: solid black 1px;
+    padding-bottom: 10px;
+    width: 80%;
+}
+#project-top{
+    border-bottom: solid black 1px;
+    padding-bottom: 10px;
+    width: 95%;
+}
+.project-top-data{
+    font-size: 15px;
+    list-style: none;
+}
+#pro{
+    font-size: 13px;
+    padding: 7px;
+}
+.project-bottom-data{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 40%;
+    padding-top: 10px;
+}
+.project-bottom-data2{
+    display: flex;
+    float: right;
+    list-style: none;
+    justify-content: space-between;
+    width: 40%;
+    padding-top: 10px;
+    margin-right: 35px;
+}
+
+.project-bottom-icon2{
+    position: absolute;
+    display: flex;
+    float: right;
+    list-style: none;
+    width: 10%;
+    padding-top: 10px;
+    margin-left: 420px;
+}
+
+.project-bottom-icon{
+    display: flex;
+    list-style: none;
+}
+.icon-list a{
+    padding: 5px;
+    padding-right: 10px;
+    color: black;
+}
+
+
+#right-con{
+    margin-left: 25px;
+}
+.contact-menu{
+    padding-top: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    background-color:rgb(149, 182, 182);
+
+    
+}
+.contact-matter{
+    margin-left: 290px;
+    background-color:rgb(149, 182, 182);
+}
+.contact-matter .con-matter{
+    font-size: 10x;
+}
+.contact-button{
+    margin-left: 420px;
+    padding: 10px;
+}
+.con-button{
+    padding: 10px;
+    margin-top: 50px;
+    background-color: rgb(175, 174, 174);
+    border-radius: 30px;
+    border: solid rgba(192, 192, 192, 0.685) 2px;
+}
+.con-icon{
+    display: flex;
+    list-style: none;
+    margin-left: 385px;
+    margin-top: 40px;
+}
+.con-icons{
+    margin-left: 50px;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.con-icons a{
+    color: black;
+}
+.off{
+    margin-left: 50px;
+}
